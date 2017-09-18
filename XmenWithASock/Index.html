@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<script src="Scripts/jquery-3.2.1.js"></script>
+<script>
+
+        $( document ).ready(function() {
+            var conn = new XSocketClient("ws://localhost:4502", "http://localhost", "chat");
+            conn.Open();
+        });
+</script>
+<body>
+    <h1>Bob testing..</h1>
+</body>
+</html>
